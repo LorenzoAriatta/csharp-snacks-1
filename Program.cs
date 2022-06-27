@@ -1,6 +1,25 @@
 ﻿// See https://aka.ms/new-console-template for more information
 //Console.WriteLine("Hello, World!");
 
+/*
+Snack 5
+Il software chiede di inserire un numero all'utente
+Se il numero è pari, stampa il numero, se è dispari, stampa il successivo
+ */
+Console.WriteLine("Insert a number");
+int userNum = Int32.Parse(Console.ReadLine());
+
+if (userNum % 2 == 0) {
+    Console.Write($"Your number: {userNum}, is EVEN! ");
+}else
+{
+    Console.Write($"Sorry, your number: {userNum}, is ODD, the next EVEN is: {userNum + 1}");
+}
+
+
+
+return;
+
 
 /*
 Snack 4
@@ -22,7 +41,6 @@ Console.WriteLine("Sum of number is: " + sum);
 Console.WriteLine("the average is: " + average);
 
 
-return;
 
 /*
 Snack 3
